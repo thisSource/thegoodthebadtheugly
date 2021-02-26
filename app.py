@@ -2,6 +2,7 @@ from flask import Flask, render_template, url_for, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 import pandas as pd
+import numpy as np
 import requests
 import math
 from scipy import stats
@@ -257,7 +258,7 @@ def returnGood():
 
         print(f'Names the good {good_names}')
         print(f'Names the bad {bad_names}')
-
+        print(pd.show_versions(as_json=False))
 
         return dev_return
     
