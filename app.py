@@ -266,7 +266,7 @@ def returnGood():
     import time
     while True:
         return run_dev_func()
-        time.sleep(60)
+        time.sleep(1)
     
 
 if __name__ == "__main__":
