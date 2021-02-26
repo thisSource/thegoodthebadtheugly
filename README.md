@@ -1,0 +1,2 @@
+# thegoodthebadtheugly
+algo trading project
