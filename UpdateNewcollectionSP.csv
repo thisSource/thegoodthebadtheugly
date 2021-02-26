@@ -1,0 +1,97 @@
+,Ticker,company_name,total_score,total_level,environment_score
+1,AAPL,Apple Inc,627.0,Medium,207.0
+2,ABBV,AbbVie Inc,785.0,High,260.0
+3,ABT,Abbott Laboratories,652.0,Medium,200.0
+4,ACN,Accenture plc,790.0,High,280.0
+5,ADBE,Adobe Inc,661.0,Medium,225.0
+6,AIG,American International Group, Inc,712.0,High,220.0
+7,ALL,The Allstate Corporation,900.0,Excellent,500.0
+8,AMGN,Amgen Inc,920.0,Excellent,320.0
+9,AMT,American Tower Corporation (REIT),620.0,Medium,200.0
+10,AMZN,Amazoncom, Inc,643.0,Medium,213.0
+11,AXP,American Express Company,615.0,Medium,205.0
+12,BA,The Boeing Company,657.0,Medium,212.0
+13,BAC,Bank of America Corporation,630.0,Medium,215.0
+14,BIIB,Biogen Inc,856.0,High,400.0
+15,BK,The Bank of New York Mellon Corporation,600.0,Medium,200.0
+16,BLK,Blackbaud, Inc,634.0,Medium,213.0
+17,BMY,Bristol-Myers Squibb Company,1030.0,Excellent,430.0
+18,C,Citigroup Inc,630.0,Medium,210.0
+19,CAT,Caterpillar Inc,1100.0,Excellent,300.0
+20,CHTR,Charter Communications, Inc,780.0,High,215.0
+21,CL,Colgate-Palmolive Company,655.0,Medium,215.0
+22,CMCSA,Comcast Corporation,1025.0,Excellent,425.0
+23,COF,Capital One Financial Corporation,740.0,High,235.0
+24,COP,ConocoPhillips,1090.0,Excellent,300.0
+25,COST,Costco Wholesale Corporation,725.0,High,225.0
+26,CRM,salesforcecom, inc,671.0,Medium,225.0
+27,CSCO,Cisco Systems, Inc,676.0,Medium,230.0
+28,CVS,CVS Health Corporation,925.0,Excellent,325.0
+29,CVX,Chevron Corporation,1090.0,Excellent,400.0
+30,DD,DuPont de Nemours, Inc,615.0,Medium,215.0
+31,DHR,Danaher Corporation,656.0,Medium,235.0
+32,DIS,The Walt Disney Company,883.0,High,320.0
+33,DOW,Dow Inc,605.0,Medium,205.0
+34,DUK,Duke Energy Corporation,908.0,Excellent,500.0
+35,EMR,Emerson Electric Co,967.0,Excellent,500.0
+36,EXC,Exelon Corporation,1100.0,Excellent,500.0
+37,F,Ford Motor Company,698.0,Medium,290.0
+38,FB,Facebook, Inc,636.0,Medium,230.0
+39,FDX,FedEx Corporation,722.0,High,215.0
+40,GD,Agri Dynamics, Inc,600.0,Medium,200.0
+41,GE,General Electric Company,655.0,Medium,235.0
+42,GILD,Gilead Sciences, Inc,620.0,Medium,200.0
+43,GM,General Motors Company,706.0,High,245.0
+44,GOOG,Alphabet Inc,640.0,Medium,205.0
+45,GOOGL,Alphabet Inc,640.0,Medium,205.0
+46,GS,The Goldman Sachs Group, Inc,631.0,Medium,210.0
+47,HD,The Home Depot, Inc,602.0,Medium,202.0
+48,HON,Honeywell International Inc,729.0,High,229.0
+49,IBM,International Business Machines Corporation,644.0,Medium,213.0
+50,JNJ,Johnson & Johnson,665.0,Medium,205.0
+51,JPM,JPMorgan Chase & Co,1100.0,Excellent,300.0
+52,KHC,The Kraft Heinz Company,631.0,Medium,200.0
+53,KMI,Kinder Morgan, Inc,626.0,Medium,221.0
+54,KO,The Coca-Cola Company,600.0,Medium,200.0
+55,LLY,Eli Lilly and Company,640.0,Medium,210.0
+56,LMT,Lockheed Martin Corporation,652.0,Medium,205.0
+57,LOW,Lowes Companies, Inc,600.0,Medium,200.0
+58,MA,Mastercard Incorporated,600.0,Medium,200.0
+59,MCD,McDonalds Corporation,628.0,Medium,220.0
+60,MDLZ,Mondelez International, Inc,791.0,High,300.0
+61,MDT,Medtronic plc,964.0,Excellent,364.0
+62,MET,MetLife, Inc,1100.0,Excellent,500.0
+63,MMM,3M Company,850.0,High,340.0
+64,MO,Altria Group, Inc,813.0,High,232.0
+65,MRK,Merck & Co, Inc,805.0,High,205.0
+66,MS,Morgan Stanley,1100.0,Excellent,300.0
+67,MSFT,Microsoft Corporation,637.0,Medium,210.0
+68,NEE,NextEra Energy, Inc,680.0,Medium,227.0
+69,NKE,NIKE, Inc,647.0,Medium,215.0
+70,NVDA,NVIDIA Corporation,639.0,Medium,205.0
+71,ORCL,Oracle Corporation,793.0,High,280.0
+72,PEP,PepsiCo, Inc,641.0,Medium,200.0
+73,PFE,Pfizer Inc,910.0,Excellent,310.0
+74,PG,The Procter & Gamble Company,670.0,Medium,200.0
+75,PM,Philip Morris International Inc,1003.0,Excellent,300.0
+76,PYPL,PayPal Holdings, Inc,606.0,Medium,200.0
+77,QCOM,QUALCOMM Incorporated,752.0,High,244.0
+78,SBUX,Starbucks Corporation,676.0,Medium,210.0
+79,SLB,Schlumberger Limited,645.0,Medium,220.0
+80,SO,The Southern Company,641.0,Medium,215.0
+81,SPG,Simon Property Group, Inc,626.0,Medium,215.0
+82,T,AT&T Inc,660.0,Medium,200.0
+83,TGT,Target Corporation,653.0,Medium,210.0
+84,TMO,Thermo Fisher Scientific Inc,611.0,Medium,200.0
+85,TSLA,Tesla, Inc,603.0,Medium,200.0
+86,TXN,Texas Instruments Incorporated,600.0,Medium,200.0
+87,UNH,UnitedHealth Group Incorporated,1100.0,Excellent,500.0
+88,UNP,Union Pacific Corporation,612.0,Medium,200.0
+89,UPS,United Parcel Service, Inc,661.0,Medium,200.0
+90,USB,US Bancorp,662.0,Medium,210.0
+91,V,Visa Inc,720.0,High,210.0
+92,VZ,Verizon Communications Inc,604.0,Medium,200.0
+93,WBA,Walgreens Boots Alliance, Inc,773.0,High,253.0
+94,WFC,Wells Fargo & Company,903.0,Excellent,345.0
+95,WMT,Walmart Inc,661.0,Medium,235.0
+96,XOM,Exxon Mobil Corporation,1080.0,Excellent,200.0
