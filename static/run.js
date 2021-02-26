@@ -25,4 +25,4 @@ async function fetchText() {
 
 }
 
-setInterval(fetchText,1000)
+setInterval(fetchText,60000)

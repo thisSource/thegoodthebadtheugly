@@ -3,7 +3,6 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 import pandas as pd
 import requests
-import numpy as np
 import math
 from scipy import stats
 
@@ -266,7 +265,7 @@ def returnGood():
     import time
     while True:
         return run_dev_func()
-        time.sleep(1)
+        time.sleep(60)
     
 
 if __name__ == "__main__":
