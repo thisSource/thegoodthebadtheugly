@@ -7,6 +7,8 @@ const badValue = document.getElementById("badValue")
 const goodNames = document.getElementById("goodnames")
 const badNames = document.getElementById("badnames")
 
+const marketIsOpen = document.getElementById("marketIsOpen")
+
 async function fetchText() {
     let response = await fetch('/good');
     let data = await response.json();
@@ -18,6 +20,8 @@ async function fetchText() {
 
     goodNames.textContent = data["Good names"]
     badNames.textContent = data["Bad names"]
+
+    marketIsOpen.textContent = data["Market open"]
 
 
     

@@ -1,10 +1,12 @@
 from flask import Flask, render_template, url_for, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
+import datetime as dt
 import pandas as pd
 import numpy as np
 import requests
 import math
+import pytz
 from scipy import stats
 
 IEX_CLOUD_API_TOKEN = "sk_733d9196181c43219b61c489d0c1d417"
@@ -248,8 +250,20 @@ def returnGood():
         good_names = hqm_dataframe_u["Names"].tolist()
         bad_names = hqm_dataframe_u2["Names"].tolist()
 
+        dt_now = dt.datetime.now(tz=pytz.UTC)
+        dt_newyork = dt_now.astimezone(pytz.timezone("US/Eastern"))
+        weekday = dt_newyork.isoweekday()
+        time_in_min = dt_newyork.hour * 60 + dt_newyork.minute
+
+        if weekday < 6 and time_in_min >=570 and dt_newyork.hour <16  :
+            market_is_open = "The market is open"
+            
+        else:
+            market_is_open = "The market is closed"
+            
+
         global dev_return
-        dev_return = {"Good dev":dev_good_per, "Bad dev":dev_bad_per, "Current val good": the_good_total_u, "Current val bad": the_bad_total_u, "Good names": good_names,"Bad names": bad_names}
+        dev_return = {"Good dev":dev_good_per, "Bad dev":dev_bad_per, "Current val good": the_good_total_u, "Current val bad": the_bad_total_u, "Good names": good_names,"Bad names": bad_names, "Market open": market_is_open}
         print(f'Value the good {round(the_good_mean_s,2)} $')
         print(f'Value the bad {round(the_bad_mean_s,2)} $')
 
